@@ -1,0 +1,41 @@
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+header nav a.sign__in {
+  background: #007bff;
+  color: white;
+  padding: 8px 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: #007bff;
+}
+
+header nav a.sign__in:hover {
+  background: #0056b3;
+}
